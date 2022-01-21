@@ -1,7 +1,7 @@
 import React from "react";
-import AddTodo from "./AddTodo";
-import "./ListTodo.scss"
 import { toast } from 'react-toastify';
+import AddTodo from "./AddTodo";
+import "./ListTodo.scss";
 
 class ListTodo extends React.Component {
 
