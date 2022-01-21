@@ -11,7 +11,7 @@ class AddTodo extends React.Component {
         this.setState({
             title: e.target.value
         })
-        console.log(e.target.value)
+        // console.log(e.target.value)
     }
     handleAddTodo = () => {
         if (!this.state.title) {
